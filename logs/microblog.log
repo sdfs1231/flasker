@@ -1,0 +1,133 @@
+2019-06-05 15:07:51,317 ERROR: Exception on /edit_profile [POST] [in c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\1\Desktop\flasker\app\routes.py", line 85, in edit_profile
+    current_user.username = form.username.date
+AttributeError: 'StringField' object has no attribute 'date'
+2019-06-05 15:08:37,237 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-05 15:08:40,721 ERROR: Exception on /edit_profile [POST] [in c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\1\Desktop\flasker\app\routes.py", line 85, in edit_profile
+    current_user.username = form.username.date
+AttributeError: 'StringField' object has no attribute 'date'
+2019-06-05 15:10:36,545 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-05 15:10:40,516 ERROR: Exception on /edit_profile [POST] [in c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\1\Desktop\flasker\app\routes.py", line 85, in edit_profile
+    current_user.username = form.username.date
+AttributeError: 'StringField' object has no attribute 'date'
+2019-06-05 15:11:03,662 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-05 15:11:07,706 ERROR: Exception on /edit_profile [POST] [in c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\1\Desktop\flasker\app\routes.py", line 85, in edit_profile
+    current_user.username = form.username.date
+AttributeError: 'StringField' object has no attribute 'date'
+2019-06-05 15:13:50,835 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-05 15:13:55,572 ERROR: Exception on /edit_profile [POST] [in c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\1\Desktop\flasker\app\routes.py", line 85, in edit_profile
+    current_user.username = form.username.date
+AttributeError: 'StringField' object has no attribute 'date'
+2019-06-05 15:21:33,943 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-05 15:21:39,127 ERROR: Exception on /edit_profile [POST] [in c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\1\desktop\flasker\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\1\Desktop\flasker\app\routes.py", line 85, in edit_profile
+    current_user.username = form.username.date
+AttributeError: 'StringField' object has no attribute 'date'
+2019-06-05 15:26:19,289 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 11:38:20,310 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 11:38:27,952 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 15:41:54,504 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 15:45:53,992 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 15:46:30,033 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 15:54:40,550 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 15:55:37,526 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 15:56:57,087 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 16:05:18,608 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-06 16:06:24,166 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-11 23:17:58,189 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-11 23:21:05,644 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
+2019-06-11 23:21:59,124 INFO: Microblog startup [in C:\Users\1\Desktop\flasker\app\__init__.py:43]
